@@ -1,7 +1,9 @@
 package ObjectCatSample;
 
 import java.awt.*;
-
+/**
+ * Created by TKolos on 26.02.2018.
+ */
 public class Cat {
     int paws;
     boolean fur;
