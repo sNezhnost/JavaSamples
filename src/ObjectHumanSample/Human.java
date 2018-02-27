@@ -159,8 +159,8 @@ public class Human {
     }
 
     public void eat(){
-        if (!this.hungry){
-            this.hungry = true;
+        if (this.hungry){
+            this.hungry = false;
             this.lifeSatisfaction += 25;
         } else {
             this.sleepy = true;
